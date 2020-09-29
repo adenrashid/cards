@@ -1,0 +1,50 @@
+span {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+p {
+    opacity: 0;
+}
+
+/* 
+
+to hide things 
+
+display: block, inline, inline block, grid, none
+visibility 
+opacity 
+
+*/
+
+span:first-child {
+    /* display: none; means the webpage doesnt see it at all and other elements move */
+    visibility: 'visible'; 
+    /* this ensures that the other elements on the browser stay in the same place */
+    /* visibility: visible; */
+    /* opacity: 1 full opacity, can see it can decrease to the point of 0 where its gone */
+}
+
+/* button {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+} */
+
+body {
+    background-color: pink;
+}
+
+.darkMode {
+    background-color: darkgrey;
+    color: white;
+}
+
+.allgone {
+    opacity: 1;
+}
+
+.hiding {
+    /* opacity: 0; */
+    visibility: hidden;
+}
